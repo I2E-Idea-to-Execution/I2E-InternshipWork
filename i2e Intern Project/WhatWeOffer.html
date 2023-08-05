@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./WO_style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: black;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    <h1 class="WO_heading">What we offer at I2E</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container_WO">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-2 WWO_col_img"><img src="./images/SU.png" alt="" width="90px" height="90px"></div>
+            <div class="col-12 col-md-2 WWO_col_img"><img src="./images/G.png" alt="" width="90px" height="90px"></div>
+            <div class="col-12 col-md-2 WWO_col_img"><img src="./images/V.png" alt="" width="90px" height="90px"></div>
+            <div class="col-12 col-md-2 WWO_col_img"><img src="./images/DR.png" alt="" width="90px" height="90px"></div>
+            <div class="col-12 col-md-2 WWO_col_img"><img src="./images/IE.png" alt="" width="90px" height="90px"></div>
+
+          </div>
+
+          <br>
+          <br>
+          <br>
+
+        <div class="row justify-content-center">
+            <button onclick="modalClick(this.id)" class="col-12 col-md-2 WWO_col" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="Startup_i2e">Startup with I2E</button>
+
+            <button onclick="modalClick(this.id)" class="col-12 col-md-2 WWO_col" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="grow_i2e">Grow with I2E</button>
+
+            <button onclick="modalClick(this.id)" class="col-12 col-md-2 WWO_col" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="Validate_i2e">Validate with I2E</button>
+
+            <button onclick="modalClick(this.id)" class="col-12 col-md-2 WWO_col" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="doc_i2e">Documentation with I2E</button>
+
+            <button onclick="modalClick(this.id)" class="col-12 col-md-2 WWO_col" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="ie_i2e">Import/Export with I2E</button>
+
+          </div>
+
+      </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal_title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal_body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+
+<script src="./script.js"></script>
