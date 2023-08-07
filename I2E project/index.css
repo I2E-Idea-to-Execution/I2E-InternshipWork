@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 150px;
+   height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.nav-itmes ul li{
+    list-style-type: none;
+     margin-left: 20px;
+     font-weight: bold;
+     display: inline;
+}
+.nav-itmes ul li:hover{
+    cursor: pointer;
+}
+
+.nav-itmes ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px;
+}
+
+.nav-itmes{
+    width: 800px;
+    height: 100px;
+    margin-left: 30px;
+}
+.login{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.login-btn{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* left and right block content */
+.main{
+    display: flex;
+    width: 100%;
+    height: 84vh;
+   
+}
+.left-block{
+    width: 100%;
+    height: 84vh;
+   
+}
+
+.why{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.startup{
+    font-size: 110px;
+    line-height: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+    
+}
+.startup p{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+.start{
+    margin-left: 60px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.start p{
+   color: black;
+}
+.here{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.email-input{
+    display: flex;
+    margin-left: 25px;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+   
+}
+.email-input input:focus{
+  outline: 0;
+}
+.email-input input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.email-input button{
+    width: 100px;
+    border: none;
+    height: 30px;
+    background-color:#FF914D;
+    border-radius: 5px;
+    color: white;
+    z-index: 2;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+.right-block{
+    width: 100%;
+    height: 84vh;
+   display: flex;
+
+align-items: center;
+}
+.gif{
+    width: 100%;
+    height: 60vh;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+#home-gif{
+    width:500px;
+    height: 500px;
+}
+
+
+
+/* Login and sign up page css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* login page css */
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.left-page{
+    width: 50%;
+    height: 100%;
+    background-image: url("yeah.png");
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+/* for sign up  */
+.sign-up{
+    width: 55%;
+    height: 100%;
+    background-image: url("sign_up.png");
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-page{
+    width: 45%;
+    height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    background-image: url("i2e\ logo.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#email , #pass, #user{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding: 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color: rgb(226, 230, 243);
+}
+.item{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    color: red;
+}
+#forgot{
+margin-left: 55px;
+}
+#chechk{
+    margin-right: 10px;
+}
+#login-btn{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(245, 245, 65);
+    border: 0;
+    border-radius: 40px;
+}
+#login-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#account{
+    font-size: 0.8rem;
+    margin-top: 20px;
+
+}
+
+#signup{
+    text-decoration: none;
+    color: rgb(81, 81, 233);
+}
+/* sign page css */
+
+
+ /* sign up page  */
+ 
