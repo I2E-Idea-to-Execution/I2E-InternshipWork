@@ -3,22 +3,27 @@
     color: aqua;
 } */
 
+
 .h1_gradient{
     background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+
 .col_FAQ{
     background-color: bisque;
-    width: 50%;
-    height: 100px;
+    width:45%;
+    min-height: 100px;
+    overflow: hidden;
     border-radius: 10px;
     font-weight: 500;
-    text-align: center;
-    padding-top: 15px;
-    font-size: x-large;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 20px;
+    display:inline-block;
 }
+
 
 .subscribe_search{
     box-shadow: 2px 2px 2px 2px;
@@ -28,10 +33,32 @@
     text-align: center;
 }
 
+
 #FAQ_button{
     border-radius: 5px;
 }
 
+
 .FAQ_list{
     list-style: none;
+}
+
+
+.content{
+    display: none;
+    font-size: 0.8em;
+}
+.collapsible_div{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.main_container{
+    padding: 10px 20px;
+    width:100%;
+}
+.container_row{
+    width:100%;
+    padding:15px 20px;
 }
