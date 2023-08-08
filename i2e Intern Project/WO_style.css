@@ -31,9 +31,14 @@
 
 .WO_heading{
     text-align: center; margin-top: 20px; font-size: 72px;
-    background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
+    /* background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+
+    background: linear-gradient(91deg, #5EAACA 0%, rgba(204, 48, 76, 0.85) 33.33%, #2A69F2 66.67%, rgba(38, 217, 77, 0.90) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 
