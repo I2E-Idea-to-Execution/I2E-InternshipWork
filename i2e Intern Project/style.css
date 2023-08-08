@@ -5,9 +5,15 @@
 
 
 .h1_gradient{
-    background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
+    /* background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+
+    background: linear-gradient(91deg, #5EAACA 0%, rgba(204, 48, 76, 0.85) 33.33%, #2A69F2 66.67%, rgba(38, 217, 77, 0.90) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
 }
 
 
@@ -18,8 +24,8 @@
     overflow: hidden;
     border-radius: 10px;
     font-weight: 500;
-    padding: 10px 20px;
-    margin: 0px 10px;
+    padding: 10px 10px;
+    margin: 0px 8px;
     font-size: 20px;
     display:inline-block;
 }
@@ -55,10 +61,10 @@
 
 
 .main_container{
-    padding: 10px 20px;
+    padding: 10px 10px;
     width:100%;
 }
 .container_row{
     width:100%;
-    padding:15px 20px;
+    padding:15px 10px;
 }
