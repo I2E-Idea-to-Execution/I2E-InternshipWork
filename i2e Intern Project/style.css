@@ -1,71 +1,39 @@
-/* h1
+h1
 {
-    color: aqua;
-} */
+    color:#3F2D2D;
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
 
-
-.h1_gradient{
-    /* background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-
-    background: linear-gradient(91deg, #5EAACA 0%, rgba(204, 48, 76, 0.85) 33.33%, #2A69F2 66.67%, rgba(38, 217, 77, 0.90) 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: 700;
+p
+{
+    font-size: 32px;
+    font-family: 'Poppins';
+}
+h5
+{
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.card
+{
+    border-radius: 30px !important;
+    margin-left: auto; 
+    float: none;
+    background-color:#F7F1F1!important;
+}
+.card-img-top
+{
+    width: 40px;
+     height: 200px;
+     
+}
+.card-text
+{
+   
+    font-size: 12px;
 }
 
 
-.col_FAQ{
-    background-color: rgb(237, 235, 232);
-    width:45%;
-    min-height: 100px;
-    overflow: hidden;
-    border-radius: 10px;
-    font-weight: 500;
-    padding: 10px 10px;
-    margin: 0px 8px;
-    font-size: 20px;
-    display:inline-block;
-    box-shadow: 3px 3px 3px 3px #7e888e;
-}
-
-
-.subscribe_search{
-    box-shadow: 2px 2px 2px 2px;
-    border-width: medium;
-    border-radius: 5px;
-    width: 200px;
-    text-align: center;
-}
-
-
-#FAQ_button{
-    border-radius: 5px;
-}
-
-
-.FAQ_list{
-    list-style: none;
-}
-
-
-.content{
-    display: none;
-    font-size: 0.8em;
-}
-.collapsible_div{
-    cursor: pointer;
-    font-weight: 700;
-}
-
-
-.main_container{
-    padding: 10px 10px;
-    width:100%;
-}
-.container_row{
-    width:100%;
-    padding:15px 10px;
-}

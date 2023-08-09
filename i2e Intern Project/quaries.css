@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    p
+    {
+        font-size: 14px;
+    }
+    .card
+    {
+        border-radius: 35;
+        margin-left: auto; 
+        float: none;
+        width: auto;
+        margin-left: 15px;
+        margin-bottom: 30px!important;
+        background-color: #3F2D2D;
+    }
+    .card-img-top
+    {
+        width:auto;
+         height:auto
+    }
+
+  }
