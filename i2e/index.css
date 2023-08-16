@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
-@media screen and (min-width : 1280px ){
+@media screen and (min-width : 800px ){
     .main-container-moblie ,.main-container-signup ,.main-container-forgot ,.nav-itmes-moblie ,.main-moblie , #main-menu{
         display: none;
     }
@@ -613,7 +613,7 @@ font-size: 1.1rem;
      .logo{
         width: 100px;
         height: 100px;
-      
+      margin-top: 30px;
         background-image: url("i2e\ logo.jpg");
         background-size: contain;
         background-repeat: no-repeat;
