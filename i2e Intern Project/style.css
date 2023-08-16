@@ -36,65 +36,6 @@ h5
     font-size: 12px;
 }
 
-.h1_gradient{
-    background: -webkit-linear-gradient(#5EAACA,#CC304C, #46dc4d, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-.col_FAQ{
-    background-color: rgb(179, 173, 167);
-    width:45%;
-    min-height: 100px;
-    overflow: hidden;
-    border-radius: 10px;
-    font-weight: 500;
-    padding: 10px 20px;
-    margin: 0px 10px;
-    font-size: 20px;
-    display:inline-block;
-}
-
-
-.subscribe_search{
-    box-shadow: 2px 2px 2px 2px;
-    border-width: medium;
-    border-radius: 5px;
-    width: 200px;
-    text-align: center;
-}
-
-
-#FAQ_button{
-    border-radius: 5px;
-}
-
-
-.FAQ_list{
-    list-style: none;
-}
-
-
-.content{
-    display: none;
-    font-size: 0.8em;
-}
-.collapsible_div{
-    cursor: pointer;
-    font-weight: 700;
-}
-
-
-.main_container{
-    padding: 10px 20px;
-    width:100%;
-}
-.container_row{
-    width:100%;
-    padding:15px 20px;
-}
-
 
 
 
