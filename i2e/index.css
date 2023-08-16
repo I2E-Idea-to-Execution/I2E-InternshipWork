@@ -1,0 +1,760 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+@media screen and (min-width : 1280px ){
+    .main-container-moblie ,.main-container-signup ,.main-container-forgot ,.nav-itmes-moblie ,.main-moblie , #main-menu{
+        display: none;
+    }
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo-1{
+    width: 150px;
+   height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+.i2e-logo{
+    width: 120px;
+    height: 70px;
+    background-image: url("i2e\ logo.jpg");
+    background-size: 100% 100%;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.nav-itmes ul li{
+    list-style-type: none;
+     margin-left: 20px;
+     font-weight: bold;
+     display: inline;
+}
+.nav-itmes ul li:hover{
+    cursor: pointer;
+}
+
+.nav-itmes ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px;
+}
+
+.nav-itmes{
+    width: 800px;
+    height: 100px;
+    margin-left: 30px;
+}
+.login{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.login-btn{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* left and right block content */
+.main{
+    display: flex;
+    width: 100%;
+    height: 84vh;
+   
+}
+.left-block{
+    width: 100%;
+    height: 84vh;
+   
+}
+
+.why{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.startup{
+    font-size: 110px;
+    line-height: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+    
+}
+.startup p{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+.start{
+    margin-left: 60px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.start p{
+   color: black;
+   font-weight: bold;
+}
+.here{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.email-input{
+    display: flex;
+    margin-left: 25px;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+   
+}
+.email-input input:focus{
+  outline: 0;
+}
+.email-input input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.email-input button{
+    width: 100px;
+    border: none;
+    height: 30px;
+    background-color:#FF914D;
+    border-radius: 5px;
+    color: white;
+    z-index: 2;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+.right-block{
+    width: 100%;
+    height: 84vh;
+   display: flex;
+
+align-items: center;
+}
+.gif{
+    width: 100%;
+    height: 70vh;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+#home-gif{
+    width:600px;
+    height: 500px;
+}
+
+
+
+/* Login and sign up page css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* login page css */
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.left-page{
+    width: 50%;
+    height: 100%;
+    /* background-image: url("yeah.png"); */
+    background-color: orange;
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+.front-photo-login{
+    width: 90%;
+    height: 80%;
+    background-image: url("login.front.png");
+    z-index: 10;
+    background-repeat: no-repeat;
+   margin-left: 100px;
+}
+.front-photo{
+    width: 100%;
+    height: 90%;
+    background-image: url("signup-removebg-preview.png");
+    z-index: 10;
+    background-repeat: no-repeat;
+   margin-left: 100px;
+}
+.front-photo-forgot{
+    width: 90%;
+    height: 80%;
+    background-image: url("forgot-passwrod.png");
+    z-index: 10;
+    background-repeat: no-repeat;
+   margin-left: 100px;
+}
+/* for sign up  */
+.sign-up{
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-page{
+    width: 50%;
+    height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    background-image: url("i2e\ logo.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#email , #pass, #user{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding: 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color: rgb(226, 230, 243);
+}
+#email-forgot-pass{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding: 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color: rgb(226, 230, 243);
+}
+.item{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    color: red;
+}
+#forgot{
+margin-left: 55px;
+cursor: pointer;
+text-decoration: none;
+}
+#chechk{
+    margin-right: 10px;
+}
+#login-btn{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(245, 245, 65);
+    border: 0;
+    border-radius: 40px;
+}
+#Google-btn {
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:  rgb(228, 74, 74);
+    border: 0;
+    border-radius: 10px;
+}
+#facebook-btn{
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(65, 140, 245);
+    border: 0;
+    border-radius: 10px;
+}
+.right-page p{
+    margin-top: 10px;
+}
+#facebook-btn:hover , #Google-btn:hover{
+   background-color: transparent;
+   border: 1px solid black;
+}
+#login-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#account{
+    font-size: 0.8rem;
+    margin-top: 20px;
+
+}
+
+#signup{
+    text-decoration: none;
+    color: rgb(81, 81, 233);
+}
+}
+/* sign page css */
+
+
+ /* sign up page  */
+ @media only screen and (max-width: 600px)
+  {
+      /* home page  */
+      .main  ,.home-gif , .nav-itmes{
+        display: none;
+      }
+   .nav{
+    width: 100%;
+    height: 70px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+   }
+   .logo-1{
+    width: 80px;
+    height: 30px;
+  margin-right: 30px;
+ 
+
+   }
+   .i2e-logo{
+    width: 100%;
+    height: 100%;
+    background-image: url("i2e\ logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   .login{
+    width: 70px;
+    height: 25px;
+    background-color: orange;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  
+   }
+   .login-btn{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+
+   }
+   .moblie-view{
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      display: block;
+      width: 100%;
+      height: 100vh;
+      background-color: #FF914D;
+      position: fixed;
+      top: 0%;
+      right: -100%;
+      z-index: 5;
+      transition: 2s;
+      color: white;
+   }
+   
+   .show{
+    right: 0%;
+   }
+   .nav-itmes-moblie i{
+font-size: 1.1rem;
+
+   }
+   #menu{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 550;
+   }
+   .nav-itmes-moblie ul li{
+    font-size: 1.1rem;
+   list-style: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 550;
+    
+   }
+
+
+
+   .nav i{
+    margin-right: 10px;
+    font-size: 1.3rem;
+   }
+.main-moblie{
+    width: 100%;
+    height: 100vh;
+   
+}
+.gif{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+#home-gif{
+    width: 100%;
+    height: 100%;
+}
+
+.left-block{
+    margin-top: 40px;
+    width: 100%;
+    height: 60vh;
+
+}
+.why{
+    margin-top: 30px;
+    font-size: 15px;
+   margin-left: 20px;
+}
+.startup{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.start{
+     margin-top: 10px;
+    margin-left: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 27px;
+}
+.here{
+     margin-left: 20px;
+     font-size: 14px;
+      line-height: 20px;
+      margin-top: 10px;
+}
+
+
+
+.email-input{
+    display: flex;
+    margin-left: 20px;
+    width: 85%;
+    height: 35px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+   
+}
+.email-input input:focus{
+  outline: 0;
+}
+.email-input input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.email-input button{
+    width: 100px;
+    border: none;
+    height: 23px;
+    background-color:#FF914D;
+    border-radius: 5px;
+    color: white;
+    z-index: 2;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+    /*log in page moblie view  */
+     .main-container ,.left-page  {
+      display: none;
+        
+     }
+     .main-container-moblie{
+         width: 100%;
+        height: 100vh;
+       
+     }
+     .left-page-mobile{
+        width: 100%;
+        height: 25vh;
+        background-color: #FF914D;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .front-photo-login{
+        width: 80%;
+        height: 100%;
+        background-image: url("login.front.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+       margin-left: 30px;
+    }
+    .right-page-login{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     .logo{
+        width: 100px;
+        height: 100px;
+      
+        background-image: url("i2e\ logo.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+    }
+  #email , #pass ,#user ,#email-forgot-pass{
+    margin: 5px 0px 10px;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+  }
+  .item{
+  
+    width: 70%;
+    height: 60px;
+    display: flex;
+    font-size: 0.7rem;
+  }
+  
+  #chechk{
+   
+    width: 10px;
+    height: 20px;
+    margin-right: 10px;
+   
+  }
+  .item a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  #login-btn {
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #FF914D;
+    border:none;
+    font-weight: 700;
+    color: white;
+  }
+  
+  #Google-btn {
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:  rgb(228, 74, 74);
+    border:none;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+  }
+   #facebook-btn{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #2826a5;
+    border:none;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+   }
+  #account{
+    font-size: 0.9rem;
+    margin-top: 20px;
+
+}
+#account a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* sign up page mobile  view  */
+.main-container-signup{
+    width: 100%;
+    height: 120vh;
+    
+}
+.sign-up{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: #FF914D;
+}
+.front-photo{
+    width: 90%;
+    height: 100%;
+    background-image: url("signup-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.right-page{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right-page p{
+    margin: 5px 0px 5px;
+
+}
+
+/* forgot password page  */
+ .main-container-forgot{
+    width: 100%;
+    height: 100vh;
+   
+ }
+ .left-page{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    background-color: #FF914D;
+ }
+ .front-photo-forgot{
+    width: 90%;
+    height: 90%;
+    background-image: url("forgot-passwrod.png");
+   margin-left: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+ }
+ .right-page-forgot{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #account-forgot{
+    font-size: 0.8rem;
+    
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+ }
