@@ -470,10 +470,11 @@ h1 {
   color: black;
   font-size: 0.7rem;
 }
-.btn:hover{
+.btn, .btn1:hover{
   cursor: pointer;
   background-color: transparent;
   border: 2px solid black;
   color: black;
 }
+
 }
