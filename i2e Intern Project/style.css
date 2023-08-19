@@ -1,4 +1,4 @@
-h1
+/* h1
 {
     color:#3F2D2D;
     font-size: 64px;
@@ -41,6 +41,50 @@ h5
     font-size: 12px;
 }
 
+
+
+ */
+
+ .services
+{
+    color:#3F2D2D;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+}
+.heading
+{
+    font-size: 28px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.card-title
+{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.card
+{
+    border-radius: 30px !important;
+    margin-left: auto; 
+    float: none;
+    background-color:#F7F1F1!important;
+    height: 480px;
+}
+.card-img-top
+{
+    width: 240px;
+     height: 200px;
+    margin-left: 50px;
+     
+}
+.card-text
+{
+   
+    font-size: 14px;
+}
 
 
 
