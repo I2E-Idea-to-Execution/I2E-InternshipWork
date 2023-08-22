@@ -412,40 +412,40 @@ h1 {
   border-radius: 50%;
 }
 .icon1{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-image: url("vali.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .icon2{
- width: 50px;
-  height: 50px;
+ width: 60px;
+  height: 60px;
   background-image: url("grow.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .icon3{
-   width: 50px;
-  height: 50px;
+   width: 60px;
+  height: 60px;
   background-image: url("validate.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .icon4{
- width: 50px;
-  height: 50px;
+ width: 60px;
+  height: 60px;
   background-image: url("doc.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .icon5{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-image: url("import.png");
   background-repeat: no-repeat;
   background-size: contain;
