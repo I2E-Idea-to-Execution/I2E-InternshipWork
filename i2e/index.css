@@ -99,16 +99,17 @@
 .left-block{
     width: 100%;
     height: 84vh;
-   
+   margin-left: 20px;
 }
 
 .why{
     margin-left: 65px;
     margin-top: 20px;
+    font-weight: 700;
 }
 .startup{
     font-size: 110px;
-    line-height: 100px;
+    line-height: 120px;
     margin-left: 60px;
     margin-top: 10px;
     
@@ -116,7 +117,7 @@
 }
 .startup p{
     color: black;
-    font-weight: 1000;
+    font-weight: 800;
     
 }
 
@@ -161,7 +162,7 @@
     border-radius: 10px;
    
 }
-.email-input button{
+.here button{
     width: 100px;
     border: none;
     height: 30px;
@@ -188,7 +189,7 @@
     width: 100%;
     height: 84vh;
    display: flex;
-
+margin-left: 70px;
 align-items: center;
 }
 .gif{
